@@ -16,8 +16,8 @@ main{
     flex-direction:column;
 }
 .container{
-    height:70vh;
-    width:70vh;
+    height:68vh;
+    width:68vh;
     
    
 }
@@ -61,4 +61,22 @@ main{
 }
 .hide{
     display:none;
+}
+@media(max-width:680px){
+    .container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        padding:1.6rem;
+    }
+    #mssg{
+        margin-bottom: 20px;
+        font-size:1rem;
+    }
+    main{
+        min-height:100vh;
+        width:100%;
+    }
 }
